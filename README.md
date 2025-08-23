@@ -2,8 +2,11 @@
 Dependencias del sistema:
 
 -Ubuntu
+
 -Git
+
 -Ruby via rbenv or rvm
+
 -PostgreSQL server running locally
 
 Versiones necesarias:
