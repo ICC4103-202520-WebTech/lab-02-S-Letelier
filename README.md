@@ -41,7 +41,7 @@ Pasos de la instalación y ejecución (todo debe hacerse en la terminal de Ubunt
 
 git clone https://github.com/ICC4103-202520-WebTech/lab-02-S-Letelier.git
 
-2- debería aparecer "lab-02-S-Letelier" comprueba si se clono perfectamente usando: 
+2- Debería aparecer "lab-02-S-Letelier" comprueba si se clono perfectamente usando: 
 
 ls
 
@@ -49,22 +49,22 @@ ls
 
 cd lab-02-S-Letelier
 
-4- luego instala el bundle:
+4- Luego instala el bundle:
 
 bundle install
 
-5- genera el servidor de rails:
+5- Genera el servidor de rails:
 
 rails db:create
 
-6- abre el servidor con:
+6- Abre el servidor con:
 
 rails s
 
-7- en tu navegador en la barra superior de búsqueda ingresa lo siguiente:
+7- En tu navegador en la barra superior de búsqueda ingresa lo siguiente:
 
 http://localhost:3000/about
 
-8- Para cerrar el servidor se debe apretar CTRL + C
+8- Para cerrar el servidor se debe apretar CTRL + C en la terminal de ubuntu
 
-8- con eso quedaria todo fino fino
+8- Con eso quedaria todo fino fino
