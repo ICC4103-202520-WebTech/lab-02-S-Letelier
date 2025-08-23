@@ -9,6 +9,8 @@ Dependencias del sistema:
 
 -PostgreSQL server running locally
 
+--------------------------------------------
+
 Versiones necesarias:
 -Ruby Versión: 3.4.3
 -Rails Versión: 8.0.2.1
@@ -17,6 +19,8 @@ En caso de no tener estas versiones, corre en la terminal de Ubuntu lo siguiente
 rbenv install 3.4.3
 rbenv global 3.4.3
 gem install rails -v 8.0.2.1
+
+--------------------------------------------
 
 Pasos de la instalación y ejecución (todo debe hacerse en la terminal de Ubuntu):
 
