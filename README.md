@@ -1,24 +1,51 @@
 # README
+Dependencias del sistema:
+-Ubuntu
+-Git
+-Ruby via rbenv or rvm
+-PostgreSQL server running locally
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Versiones necesarias:
+-Ruby Versión: 3.4.3
+-Rails Versión: 8.0.2.1
 
-Things you may want to cover:
+En caso de no tener estas versiones, corre en la terminal de Ubuntu lo siguiente:
+rbenv install 3.4.3
+rbenv global 3.4.3
+gem install rails -v 8.0.2.1
 
-* Ruby version
+Pasos de la instalación y ejecución (todo debe hacerse en la terminal de Ubuntu):
 
-* System dependencies
+1- Clona el repositorio:
 
-* Configuration
+git clone https://github.com/ICC4103-202520-WebTech/lab-02-S-Letelier.git
 
-* Database creation
+2- debería aparecer "lab-02-S-Letelier" comprueba si se clono perfectamente usando: 
 
-* Database initialization
+ls
 
-* How to run the test suite
+3- Accede a la carpeta con lo siguiente:
 
-* Services (job queues, cache servers, search engines, etc.)
+cd lab-02-S-Letelier
 
-* Deployment instructions
+4- revisa que las versiones si son las correctas:
 
-* ...
+ruby -v       
+rails -v      
+bundle -v     
+
+5- luego instala el bundle:
+
+bundle install
+
+6- genera el servidor de rails:
+
+rails db:create
+
+7- abre el servidor con:
+
+rails s
+
+8- en tu navegador en la barra superior de búsqueda ingresa lo siguiente:
+
+http://localhost:3000/about
