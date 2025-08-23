@@ -1,5 +1,6 @@
 # README
 Dependencias del sistema:
+
 -Ubuntu
 -Git
 -Ruby via rbenv or rvm
