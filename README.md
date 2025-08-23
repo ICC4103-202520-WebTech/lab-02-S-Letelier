@@ -64,3 +64,5 @@ rails s
 7- en tu navegador en la barra superior de búsqueda ingresa lo siguiente:
 
 http://localhost:3000/about
+
+8- con eso quedaria todo fino fino
