@@ -65,4 +65,6 @@ rails s
 
 http://localhost:3000/about
 
+8- Para cerrar el servidor se debe apretar CTRL + C
+
 8- con eso quedaria todo fino fino
