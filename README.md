@@ -17,6 +17,12 @@ Versiones necesarias:
 
 -Rails Versión: 8.0.2.1
 
+Para comprobar las versiones corre en la terminal de Ubuntu lo siguiente:
+
+ruby -v       
+rails -v      
+bundle -v     
+
 
 En caso de no tener estas versiones, corre en la terminal de Ubuntu lo siguiente:
 
@@ -43,24 +49,18 @@ ls
 
 cd lab-02-S-Letelier
 
-4- revisa que las versiones si son las correctas:
-
-ruby -v       
-rails -v      
-bundle -v     
-
-5- luego instala el bundle:
+4- luego instala el bundle:
 
 bundle install
 
-6- genera el servidor de rails:
+5- genera el servidor de rails:
 
 rails db:create
 
-7- abre el servidor con:
+6- abre el servidor con:
 
 rails s
 
-8- en tu navegador en la barra superior de búsqueda ingresa lo siguiente:
+7- en tu navegador en la barra superior de búsqueda ingresa lo siguiente:
 
 http://localhost:3000/about
