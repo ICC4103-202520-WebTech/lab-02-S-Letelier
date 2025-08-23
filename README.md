@@ -17,7 +17,9 @@ Versiones necesarias:
 
 -Rails Versión: 8.0.2.1
 
+
 En caso de no tener estas versiones, corre en la terminal de Ubuntu lo siguiente:
+
 
 rbenv install 3.4.3
 
