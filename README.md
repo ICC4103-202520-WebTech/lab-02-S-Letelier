@@ -21,7 +21,7 @@ Para comprobar las versiones corre en la terminal de Ubuntu lo siguiente:
 
 ruby -v       
 rails -v      
-bundle -v     
+     
 
 
 En caso de no tener estas versiones, corre en la terminal de Ubuntu lo siguiente:
